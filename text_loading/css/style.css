@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.text_loading{
+  font-size: 25px;
+  color:white;
+  position: absolute;
+}
