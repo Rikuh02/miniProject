@@ -1,0 +1,98 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #b1d1f2;
+}
+
+.btn_mode{
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #333;
+}
+
+.btn_mode:hover{
+  cursor: pointer;
+}
+
+.clock{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #afafca;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  margin: 3px;
+}
+
+.time{
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color:#333;
+}
+
+.pointer{
+  height: 140px;
+  width: 5px;
+  background-color: red;
+  top: 27.5%;
+  border-radius: 15px;
+  position: absolute;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+  transition: transform 0.05s ease-in-out;
+}
+
+.center{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  z-index: 1;
+}
+
+.date{
+  text-transform: uppercase;
+  color:#333;
+}
+
+/* mode light end dark */
+.dark-mode{
+  background-color: #4f4f4f;
+}
+
+.dark-mode .btn_mode{
+  color: whitesmoke;
+}
+
+.dark-mode .clock{
+  background-color: #333;
+}
+
+.dark-mode .date{
+  color: whitesmoke;
+}
+
+.dark-mode .time{
+  color: whitesmoke;
+}
