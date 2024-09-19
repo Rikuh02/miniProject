@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top-btn{
+    width:100%;
+    height: 30px;
+    padding: 30px 20px;
+    background-color: #1a3d88;
+}
+
+.btn-add{
+    background-color: blueviolet;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    float: right;
+}
+
+.btn-add i {
+  padding-right: 5px;
+}
+
+.notes-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.notes {
+    margin: 20px;
+    width: 35rem;
+    height: 30rem;
+}
+
+.content-top{
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}
+
+.content-top button {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    border: none;
+}
+
+.content-top button i {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.box{
+    height: calc(100% - 50px);
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    outline: none;
+    background-color: rgb(62, 109, 110);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.notes-conteiner .content{
+    height: calc(100% - 50px);
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    outline: none;
+    background-color: rgb(62, 109, 110);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.hidden{
+    display: none;
+}
